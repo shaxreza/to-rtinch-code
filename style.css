@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    height:500px ;
+    margin: 5% auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    width: 300px;
+    border: 2px solid black;
+    height: 100%;
+}
+.image{
+    width: 300px;
+    border: 2px solid black;
+}
+.imge2{
+    width: 300px;
+    display: none;
+    border: 2px solid black;
+    he
+}
+@media (max-width:500px) {
+    .container{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .card{
+        height: 500px;
+    }
+    .image{
+        display: none;
+    }
+    .image2{
+        display: block;
+        height: 500px;
+    }
+}
